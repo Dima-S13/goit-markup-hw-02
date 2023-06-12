@@ -6,7 +6,8 @@ body
     background-color: #FFFFFF;
 font-style: normal;}
 
-.link {text-decoration: none;}
+.link {text-decoration: none;
+list-style: none;}
 
     /* ========= HEADER ========= */
 .logo 
@@ -30,16 +31,22 @@ font-style: normal;}
         letter-spacing: 0.03em;
         text-transform: uppercase;    
         color: #2E2F42;}
+.nav-list
+{list-style: none;}
 
  .nav-link 
- {     font-weight: 500;
+ {  font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;}
 
-    .address-list .header-email .header-phone
-    {font-style: normal;
+    .address-list 
+    {list-style: none;}
+    
+    .header-email .header-phone
+    {
+      font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -69,11 +76,141 @@ font-style: normal;}
            background-color: #4D5AE5;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
      border-radius: 4px; 
+    cursor: pointer;
      } 
         
     .hero-btn:hover,
         .hero-btn:focus
-        {color: teal;
-          background-color: white;} 
+        {
+          background-color: #404BBF;} 
 
         /* ========= ADVANTAGES ========= */
+        .advantages-list 
+        {list-style: none;}
+
+        .advantages-title
+        {font-weight: 500;
+          font-size: 20px;
+          line-height: 1.2;
+          letter-spacing: 0.02em;      
+          color: #2E2F42;}
+
+          .advantages-suptitle
+          {font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+           letter-spacing: 0.02em;
+           color: #434455;}
+
+           /* ========= ACTIVITY ========= */
+.activity-title
+{font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;}
+
+.activity-list
+{list-style: none;}
+
+ /* ========= OUR TEAM ========= */
+
+.team-title
+{font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;}
+
+  .team-list
+  {list-style: none;}
+
+  .team-name
+  {font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+      color: #2E2F42;}
+
+      .team-suptitle
+      {font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+              text-align: center;
+        letter-spacing: 0.02em;
+              color: #434455;}
+
+/* ========= FOOTER ========= */
+.footer-section
+{background-color: #2E2F42;}
+
+.footer-logo
+{font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;}
+
+  .footer-logo_2
+  {font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+     display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+      color: #F4F4FD;}
+
+  .footer-suptitle
+  {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
+
+    /* ========= PORTFOLIO ========= */
+
+    .portfolio-btn-list
+    {list-style: none;}
+
+    .portfolio-btn
+    {font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+          display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.04em;
+          color: #4D5AE5;
+        background-color: #F4F4FD;
+      padding: 12px 24px;}
+
+      .portfolio-btn:hover,
+      .portfolio-btn:focus
+      {background-color: #404BBF;
+        color: #FFFFFF;      }
+
+.portfolio-image-list
+{list-style: none;}
+
+.portfolio-image-title
+{font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;}
+
+  .portfolio-image-suptitle
+  {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;}
