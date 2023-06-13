@@ -132,7 +132,8 @@ font-style: normal;}
   text-transform: capitalize;
   color: var(--main-text-color);}
 
-  .team-list {background-color: var(--main-bg-color);}
+  /* .team-list {display: flex;} */
+  .team-item {background-color: var(--main-bg-color);}
 
   .team-name
   {font-weight: 500;
