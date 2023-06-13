@@ -181,15 +181,15 @@ font-style: normal;}
 
     /* ========= PORTFOLIO ========= */
 
- 
-    .portfolio-btn
+   .portfolio-btn
     {font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
           color: var(--iris-btn-background);
-        background-color: var(--cloud-suptitle-light);}
+        background-color: var(--cloud-suptitle-light);
+      cursor: pointer;}
 
       .portfolio-btn:hover,
       .portfolio-btn:focus
