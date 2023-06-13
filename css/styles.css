@@ -132,7 +132,7 @@ font-style: normal;}
   text-transform: capitalize;
   color: var(--main-text-color);}
 
-  /* .team-list {display: flex;} */
+  
   .team-item {background-color: var(--main-bg-color);}
 
   .team-name
@@ -155,7 +155,7 @@ font-style: normal;}
 .footer-section
 {background-color: var(--main-text-color);}
 
-.footer-logo
+.logo
 {font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -164,7 +164,7 @@ font-style: normal;}
   text-transform: uppercase;
   color: var(--iris-btn-background);}
 
-  .footer-logo-2
+  .footer-logo
   {font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
